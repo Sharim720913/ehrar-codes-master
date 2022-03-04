@@ -102,6 +102,7 @@ const Corousel = () => {
   };
   return (
     <AliceCarousel
+      disableDotsControls={true}
       renderPrevButton={() => {
         return (
           <p style={{ position: "absolute", top: "34%", left: "-76px" }}>
